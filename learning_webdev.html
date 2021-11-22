@@ -3,10 +3,45 @@
 <head>
 <meta charset="utf-8">
 <title></title>
+<style>
+body {
+    margin: 40px;
+    padding: 40px;
+    background-color: #FFF;
+    border: 2px dashed #573;
+}  
+h1 {
+    text-align: center;
+}
+div.outline li {
+    list-style-type: upper-roman;
+}
+div.outline li li {
+    list-style-type: upper-alpha;
+}
+div.outline li li li {
+    list-style-type: lower-roman;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+a:link, a:visited {
+    color: #000;
+    text-decoration: none;
+}
+b {
+    color: #800000;
+}
+strong {
+    color: #D2691E;
+}
+
+</style>
 </head>
 <body>
 <h1>Learning Web Development</h1>
-<ol type="1">
+<div class="outline"><ol type="1">
   <li>Beackground Skills
     <ol type="A">
       <li>Unix Commands
@@ -57,10 +92,12 @@
 <ol type="A">
  <li>Flat File</li>
  <li>Relational</li>
-</ol>
-<footer style="text-align: center;">
+</ol></div>
+<footer>
 <a href="http://validator.w3.org/check/referer">
-<strong> HTML </strong> Valid! </a>
+<strong> HTML </strong> Valid! </a>  
+<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+<strong> CSS </strong> Valid! </a>
 </footer>
 </body>
 </html>
