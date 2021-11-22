@@ -2,28 +2,38 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Nested Boxes</title>
+<title>Box Size</title>
 <style>
+body {
+    margin: 0;
+    padding: 0;
+}
 h1 {
     text-align: center;
 }
 div#box1 {
- margin: 40px;
-    padding: 40px;
-    border: 10px solid #000;
-    background-color: #F0F;
+width: 500px;
+    height: 200px;
+    background-color: #F70;
 }
 div#box2 {
-margin: 40px;
-    padding: 40px;
-    border: 10px dotted #000;
-    background-color: #FF0;
+    margin: 50px;
+    padding: 50px;
+    border: 10px solid #000;
 }
-div#box3 {
-    margin: 40px;
-    padding: 40px;
-    border: 10px dotted #000;
-    background-color: #5FF;
+hr {
+    margin-left: 0;
+    background-color: #000;
+    height: 8px;
+}
+p {
+    text-align: center;
+}
+.line1 {
+    width: 500px;
+}
+.line2 {
+    width: 720px;
 }
 footer {
     text-align: center;
@@ -52,17 +62,19 @@ footer a > strong {
 </style>
 </head>
 <body>
-<h1>Nested Boxes</h1>
+<h1>Box Size</h1>
 
 <div id="box1">
-  Box 1
-  <div id="box2">
-    Box 2  
-    <div id="box3">
-      Box 3
-    </div>
-  </div>
+Box 1
 </div>
+<hr class="line1">
+<p class="line1">500 pixels</p>
+
+<div id="box2">
+Box 2  
+</div>
+<hr class="line2">
+<p class="line2">720 pixels</p>
 
 <footer>
 <a href="http://validator.w3.org/check/referer">
