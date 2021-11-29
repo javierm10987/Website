@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CSS Position / Float Properties</title>
+<style>
+@import url(positioning.css);
+div#container {
+    position: relative;
+    top: 20px;
+    left: -40px;
+}/*
+div#box_1 {
+    position: fixed;
+    top: 210px;
+    left: 210px;
+}
+div#before {
+    float: right;
+    top: 210px;
+    left: 210px;
+}
+</style>
+</head>
+<body>
+<h1>CSS Position / Float Properties</h1>
+
+<section>
+<div id="before">
+<p>id: before</p>
+</div>
+
+<div id="container">
+<p>id: container</p>
+<div id="padding">
+<p>id: padding</p>
+
+  <div id="box_1">
+  <p>id: box_1</p>
+  <p>
+  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer pretium
+  dui sit amet felis. Integer sit amet diam. Phasellus ultrices viverra
+  velit.
+  </p>
+  </div>
+
+  <div id="box_2">
+  <p>id: box_2</p>
+  <p>
+  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer pretium dui
+  sit amet felis. Integer sit amet diam. Phasellus ultrices viverra velit. Nam
+  mattis, arcu ut bibendum commodo, magna nisi tincidunt tortor, quis accumsan
+  augue ipsum id lorem.
+  </p>
+  </div>
+
+  <div id="box_3">
+  <p>id: box_3</p>
+  </div>
+
+</div>
+</div>
+
+<div id="after">
+<p>id: after</p>
+</div>
+</section>
+
+<footer>
+<a href="http://validator.w3.org/check/referer">
+<strong> HTML </strong> Valid! </a> |
+<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+<strong> CSS </strong> Valid! </a>
+<p>Special thanks to
+<a href="http://www.barelyfitz.com/screencast/html-training/css/positioning/">
+Learn CSS Positioning in Ten Steps</a>, from which this example was derived.
+</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+    margin: 50px;
+}
+section {
+    margin-left: 100px;;
+    margin-right: 100px;
+}
+h1 {
+    text-align: center;
+}
+div {
+    padding: 5px;
+    border: 1px dotted #AAA;
+}
+div#before, div#after {
+    background-color: #FDD;
+}
+div#container {
+    background-color: #DFD;
+}
+div#padding {
+    background-color: #DDF;
+}
+div#box_1 {
+    background-color: #FDF;
+}
+div#box_2 {
+    background-color: #FFD;
+}
+div#box_3 {
+    background-color: #DFF;
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+footer a, footer a:visited {
+    color: #000;
+    font-weight: bold;
+}

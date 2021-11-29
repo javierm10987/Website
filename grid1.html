@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Grid 1: Different Size Boxes</title>
+<style type="text/css">
+h1 {
+    text-align: center;
+    font-size: 2.5vw;
+}
+main {
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-rows: 14vw 14vw 14vw;
+    grid-gap: 1vw;
+}
+.box {
+    text-align: center;
+    background-color: #78467B;
+    border: 5px solid #583770;
+    color: #FFF;
+    border-radius: 0.5vw;
+    padding: 3vw;
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.a {
+    grid-area: 1 / 1 / 2 / 3;
+}
+.b {
+    grid-area:  /  /  / ;
+}
+.c {
+    grid-area: 2 / 2 / 3 / 3;
+}
+.d {
+    grid-area:  /  /  / ;
+}
+.e {
+    grid-area: 3 / 2 / 4 / 4;
+}
+</style>
+</head>
+<body>
+<h1>Grid 1: Different Size Boxes</h1>
+<main>
+<div class="box a">A</div>
+<div class="box b">B</div>
+<div class="box c">C</div>
+<div class="box d">D</div>
+<div class="box e">E</div>
+</main>
+</body>
+</html>
+
